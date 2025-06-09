@@ -1,0 +1,69 @@
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(134, 133, 133);
+    text-align: center;
+    margin: 35px;
+    display: inline-block;
+    padding: 20px;
+}
+.halfinput{
+    display: inline-block;
+    width: 48%;
+    vertical-align: top;
+    margin-bottom: 10px;
+}
+.halfinput input{
+    width: 90%;
+    height: 40px;
+    display: inline-block;
+    text-align: justify;
+    padding-left: 10px;
+    margin: 10px;
+    box-shadow: 5px 5px 5px black;
+    border: none;
+}
+.registerform{
+    width: 30%;
+    background-color:rgb(223, 219, 219);
+    text-align: center;
+    display: inline-block;
+    margin: 20px;
+    padding: 20px;
+}
+.lineinput input{
+    width: 90%;
+    height: 40px;
+    margin: 10px;
+    padding-left: 10px;
+    box-shadow: 5px 5px 5px black;
+    border: none;
+}
+.check {
+    text-align: justify;
+    margin: 20px 0;
+    font-size: 14px;
+}
+.checkbox {
+    vertical-align: top;
+    margin-right: 10px;
+}
+.span{
+    color: blue;
+}
+button{
+    width: 90%;
+    height: 30px;
+    background: linear-gradient(to left,rgb(69, 183, 69),green);
+    border: none;
+    border-radius: 10px;
+    cursor:pointer;
+    /* transition: all 2s; */
+}
+button:hover{
+    box-shadow: 5px 5px 5px black;
+}
+button:focus{
+    background: rgb(255, 255, 255);
+}
