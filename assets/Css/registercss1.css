@@ -1,0 +1,78 @@
+body{
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(217, 211, 204);
+    text-align: center;
+    margin-top: 40px;
+}
+.registersection{
+    width: 25%;
+    background-color: white;
+    padding: 20px;
+    text-align: justify;
+    display: inline-block;
+    border: 1px solid black;
+    border-radius: 20px;
+}
+.registersection h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background: linear-gradient(to right,#FAFF00,#00E0FF);
+    display: inline-block;
+    background-clip: text;
+    color: transparent;
+}
+.registersection span{
+    color: red;
+}
+.formsection .halfinput{
+    width: 45%;
+    display: inline-block;
+    margin-left: 10px;
+    text-align: justify;
+}
+.formsection .lineinput{
+    width: 95%;
+    display: inline-block;
+    margin-top: 20px;
+    text-align: justify;
+}
+
+input{
+    width: 100%;
+    border: none;
+    height: 30px;
+    border-radius: 20px;
+    background: linear-gradient(to right,#FF8A00,#DBFF00);
+    display: inline-block;
+}
+.checkboxsection , .radiosection{
+    text-align: justify;
+    padding-left:10px;
+    margin-top: 10px;
+}
+.checkboxsection label{
+    vertical-align: super;
+    font-size: 10px;
+}
+.checkboxsection input{
+    width: 10px;
+    vertical-align: sub;
+}
+button{
+    width: 40%;
+    height: 30px;
+    text-align: center;
+    background-color:#FF8A00 ;
+    border-radius: 25px;
+    display: inline-block;
+    margin-top: 20px;
+}
+.formsection{
+    text-align: center;
+}
+button:hover{
+    box-shadow: 0 0 10px black;
+}
+button:focus{
+    background-color: #cda578;
+}
