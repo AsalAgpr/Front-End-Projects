@@ -1,0 +1,51 @@
+body{
+    background-color:bisque;
+    height: 100vh;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+ul{
+    list-style: none;
+    height: 70%;
+    padding: 0;
+    text-align: center;
+}
+.header{
+    background-color: rgb(9, 9, 83);
+    height: 15%;
+    margin-top: -25px;
+    
+}
+.Title{
+    color: white;
+    text-align: center;
+    line-height: 100px;
+    
+}
+.footer{
+    background-color: rgb(9, 9, 83);
+    height: 15%;
+}
+
+.listItemBase{
+    display: inline-block;
+    background-color: rgb(255, 255, 255);
+    height: 25%;
+    width: 95%;
+    border: 1px solid none;
+    border-radius: 10px;
+    box-shadow: 0 0 15px black;
+
+}
+.InternalList{
+    height: 100%;
+}
+.InternalList .ListItemInternal{
+    width: 25%;
+    height: 100%;
+    /* background-color: rgb(95, 79, 59); */
+    display: inline-block;
+    margin: -2px;
+}
+.boxShadow{
+    box-shadow: 5px 0 25px rgb(66, 63, 63);
+}
