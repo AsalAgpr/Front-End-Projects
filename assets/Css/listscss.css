@@ -1,51 +1,114 @@
 body{
-    background-color:bisque;
+    background-color:#FF9900 ;
     height: 100vh;
     font-family:Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
 }
 ul{
     list-style: none;
-    height: 70%;
+    word-spacing: -4px;
     padding: 0;
-    text-align: center;
 }
 .header{
-    background-color: rgb(9, 9, 83);
+    background-color: #232F3E ;
     height: 15%;
-    margin-top: -25px;
-    
+    line-height: 15%;
+
+}
+.footer{
+    background-color: #232F3E ;
+    height: 15%;
+    line-height: 15%;
+    margin-top: 40px;
 }
 .Title{
     color: white;
-    text-align: center;
+    margin: 0;
+    display: inline-block;
+    vertical-align: middle;
     line-height: 100px;
     
 }
-.footer{
-    background-color: rgb(9, 9, 83);
-    height: 15%;
+.listSection{
+    height: 70vh;
+    width: 100%;
+    text-align: center;
+    
 }
-
 .listItemBase{
-    display: inline-block;
+    /* display: inline-block; */
     background-color: rgb(255, 255, 255);
-    height: 25%;
     width: 95%;
     border: 1px solid none;
     border-radius: 10px;
     box-shadow: 0 0 15px black;
+    margin: 20px auto;
+    text-align: center;
 
 }
 .InternalList{
     height: 100%;
+    text-align: center;
+
 }
 .InternalList .ListItemInternal{
     width: 25%;
-    height: 100%;
-    /* background-color: rgb(95, 79, 59); */
     display: inline-block;
-    margin: -2px;
+    margin: -1.8px;
+    vertical-align:middle;
+    text-align: center;
 }
 .boxShadow{
     box-shadow: 5px 0 25px rgb(66, 63, 63);
 }
+.borderRadious{
+    border-radius: 10px 0 0 10px;
+}
+.logo{
+    width: 65px;
+    margin-top: 10px;
+    display: block;
+    margin-left: 150px;
+}
+.webAdd{
+    line-height: 50px;
+    display: inline-block;
+}
+.star{
+    color: #FF9900 ;
+    font-size: 20px;
+    display: inline-block;
+}
+
+.progressBox {
+  word-spacing: 10px;
+  margin-left: 10px;
+}
+
+.webLogo {
+    padding: 8px 15px;
+    background-color: #131A22;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: inline-block;
+    margin-top: 10px;
+}
+.webLogo:hover{
+    background-color: rgb(132, 146, 159);
+}
+
+@media (max-width: 700px) {
+  li {
+    width: 100%!important;
+  }
+  .ListItemInternal{
+    width: 25% !important;
+    
+  }
+}
+
+
