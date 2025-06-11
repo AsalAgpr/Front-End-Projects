@@ -70,7 +70,7 @@ ul{
     width: 65px;
     margin-top: 10px;
     display: block;
-    margin-left: 150px;
+    margin-left: 100px;
 }
 .webAdd{
     line-height: 50px;
@@ -83,11 +83,11 @@ ul{
 }
 
 .progressBox {
-  word-spacing: 10px;
+  word-spacing: 5px;
   margin-left: 10px;
 }
 
-.webLogo {
+.button {
     padding: 8px 15px;
     background-color: #131A22;
     color: white;
@@ -95,20 +95,30 @@ ul{
     border-radius: 5px;
     cursor: pointer;
     display: inline-block;
-    margin-top: 10px;
+    
 }
-.webLogo:hover{
+.button:hover{
     background-color: rgb(132, 146, 159);
 }
 
-@media (max-width: 700px) {
-  li {
-    width: 100%!important;
-  }
-  .ListItemInternal{
-    width: 25% !important;
-    
-  }
+@media (max-width:450px) {
+    li{
+        height: 23.5%;
+        
+    }
+    .ListItemInternal{
+        height: 100%;
+        vertical-align: 0 !important;
+    }
+    .p{ 
+        font-size: 13px;
+        text-align: center;
+    }
+    .logo{
+        margin-left: 15px;
+    }
+    progress{
+        width: 70%;
+         
+    } 
 }
-
-
